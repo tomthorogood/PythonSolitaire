@@ -18,7 +18,7 @@ TURN_MESSAGE = [ "",
     "[P]lay from the draw pile",
     "[M]ove from the stacks", 
     "[S]ave the board",
-    "Res[T]ore previous state", "",
+    "[R]estore previous state", "",
 ]
 
 class InvalidCard(Exception):
@@ -503,7 +503,7 @@ class Game(object):
             'M' : self.move_from_stacks,
             'P' : self.play_from_draw_pile,
             'S' : self.save_board,
-            'T' : self.restore_board,
+            'R' : self.restore_board,
         }
 
         self.board.draw_iterator = iter(self.board.draw_pile)
