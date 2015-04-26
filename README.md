@@ -4,7 +4,7 @@ There's not much to say here. This is solitaire, written in Python, to play in y
 `python solitaire.py`
 
 ## Optional Arguments:
-'''python
+```python
 usage: solitaire.py [-h] [--debug] [--draw-pile-size DRAW_PILE_SIZE]
                     [--max-loops MAX_LOOPS]
 
@@ -16,6 +16,6 @@ optional arguments:
   --max-loops MAX_LOOPS
                         Maximum number of times to loop through the draw deck
                         (default is infinite)
-'''
+```
 
 
